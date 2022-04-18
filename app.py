@@ -6,6 +6,8 @@ win = Tk()
 # Create a window
 win.title = "Title"
 win.geometry('600x500')
+# Change background 
+win.configure(bg= 'light blue')
 
 # Exit Button
 exit = Button(win, text="Exit", command=win.quit)
